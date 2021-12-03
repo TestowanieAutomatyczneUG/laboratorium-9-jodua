@@ -19,5 +19,5 @@ class CarImpl:
             return "Temperature of engine is too high"
         return "Temperature of engine is ok"
 
-    def car_set_destination(self, destination) -> str:
+    def car_set_destination(self, destination: str) -> str:
         return f'GPS is set to ${self._car.driveTo(destination)}'
